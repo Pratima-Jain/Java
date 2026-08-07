@@ -14,9 +14,12 @@ The repository is organized into three main categories:
 │   └── task2/
 └── pattern/    # Pattern printing programs using nested loops
     ├── level1/
-    └── level2/
-Folder names may vary as more topics and programs are added.
+    ├── level2/
+    └── level3/
 ```
+> *Folder names may vary as the repository grows.*
+
+---
 
 ## ✨ Core Concepts Demonstrated
 
