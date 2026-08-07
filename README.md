@@ -164,6 +164,10 @@ To run any of the programs in this repository:
     
     **Note:** For files with a `package` declaration (like those in the `oops` directory), you should compile and run from the parent directory (`Java/`). For example, to run `oops/task2/p1.java`:
     ```bash
+    # From the root project directory
+    javac oops/task2/p1.java
+    java oops.task2.p1
+    ```
 
 ## 🎯 Learning Outcomes
 
@@ -195,6 +199,4 @@ If you have suggestions for improving the code or learning better Java practices
 ---
 
 ⭐ **If you find this repository helpful, consider giving it a Star!**
-    # From the root project directory
-    javac oops/task2/p1.java
-    java oops.task2.p1
+   
