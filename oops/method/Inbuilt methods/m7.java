@@ -16,11 +16,14 @@ public class m7 {
         boolean isGraduate = Boolean.parseBoolean(s2.nextLine());
         System.out.print("Enter your city: ");
         String city = s2.nextLine();
+         System.out.print("Enter email: ");
+        String email = s2.nextLine();
 
         System.out.println("Name is : " + name);
         System.out.println("Age is : " + age);
         System.out.println("weight is : " + weight);
-        System.out.println("Address is : " + address);
+        System.out.println("Address is : " + address); 
         System.out.println("City is : " + city);
+        System.out.println("Email is : " + email);
     }
 }
