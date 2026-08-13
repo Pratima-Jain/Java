@@ -11,11 +11,11 @@ The repository is organized into three main categories:
 ├── javaa/      # Programs covering Java fundamentals
 └──  oops/       # Object-Oriented Programming examples
     ├── method
-    |    ├──inbuilt methods using IO class #programs using IO class
-    |    ├──inbuilt methods using Scanner class  #programs using Scanner class
+    |    ├──inbuilt methods using IO class      #programs using IO class
+    |    ├──inbuilt methods using Scanner class     #programs using Scanner class
     |    ├──static initializer block
-    ├── task1/  #variable initializing and calling in main method
-    └── task2/   #variable initializing and calling in main method using parameters.
+    ├── task1/      #variable initializing and calling in main method
+    └── task2/      #variable initializing and calling in main method using parameters.
 ```
 > *Folder names may vary as the repository grows.*
 
