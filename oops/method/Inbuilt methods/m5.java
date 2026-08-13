@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class m5{
     public static void main(String[] args){
-        Scanner s5 = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the name: ");
-        String name = s5.nextLine();
+        String name = sc.nextLine();
         System.out.print("Enter the age: ");
-        int age = s5.nextInt();
+        int age = sc.nextInt();
         System.out.println("Name is : " +name);
         System.out.println("Age is : " +age);        
     }

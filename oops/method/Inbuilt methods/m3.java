@@ -2,9 +2,9 @@ import java.util.Scanner;
 // nextDouble + userinput
 public class m3 {
 	public static void main(String[] args){
-		Scanner s3= new Scanner(System.in);
+		Scanner sc= new Scanner(System.in);
 		System.out.print("Enter Number: ");
-		double a = s3.nextDouble();
+		double a = sc.nextDouble();
 		double s = Even_Odd(a);
 		System.out.print("Number is " + s);
     }

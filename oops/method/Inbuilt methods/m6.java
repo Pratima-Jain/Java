@@ -2,11 +2,11 @@ import java.util.Scanner;
 // nextLine
 public class m6{
     public static void main(String[] args){
-        Scanner s6 = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the age: ");
-        int age = Integer.parseInt(s6.nextLine());
+        int age = Integer.parseInt(sc.nextLine());
         System.out.print("Enter the name: ");
-        String name = s6.nextLine();
+        String name = sc.nextLine();
         System.out.println("Name is : " +name);
         System.out.println("Age is : " +age);        
     }

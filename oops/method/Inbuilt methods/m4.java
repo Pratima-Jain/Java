@@ -2,9 +2,9 @@ import java.util.Scanner;
 // nextInt + userinput
 public class m4 {
     	public static void main(String[] args){
-		Scanner s4= new Scanner(System.in);
+		Scanner sc= new Scanner(System.in);
 		System.out.print("Check if the number is even : ");
-		int a = s4.nextInt();
+		int a = sc.nextInt();
 		boolean s = Even_Odd(a);
 		System.out.print("Number is " + s);
     }
