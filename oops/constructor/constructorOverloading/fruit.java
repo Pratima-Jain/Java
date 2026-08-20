@@ -1,20 +1,20 @@
 package oops.constructor.constructorOverloading;
 
-public class p1 {
+public class fruit {
     String name;
     int price;
     double weight;
     String color;
 
-    p1() {
+    fruit() {
         System.out.println("p1 object");
     }
 
-    p1(String name) {
+    fruit(String name) {
         this.name = name;
     }
 
-    p1(String name, int price, double weight, String color) {
+    fruit(String name, int price, double weight, String color) {
         this.name = name;
         this.price = price;
         this.weight = weight;
