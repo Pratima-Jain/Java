@@ -1,7 +1,7 @@
-package oops.task2;
+package oops.variables.task2;
 
 public class p1 {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         order o1 = new order();
         o1.setData(101, "Order1");
         o1.getData();

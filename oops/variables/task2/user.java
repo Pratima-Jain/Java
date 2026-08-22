@@ -1,4 +1,4 @@
-package oops.task2;
+package oops.variables.task2;
 
 public class user {
     String uname;

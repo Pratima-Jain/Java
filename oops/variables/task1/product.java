@@ -1,4 +1,4 @@
-package oops.task1;
+package oops.variables.task1;
 
 public class product {
     String name;

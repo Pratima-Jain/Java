@@ -1,4 +1,4 @@
-package oops.task2;
+package oops.variables.task2;
 
 public class order {
     int oid;
@@ -8,6 +8,7 @@ public class order {
         this.oid = oid;
         this.oname = oname;
     }
+
     public void getData() {
         System.out.println("============ORDER============");
         System.out.println("Order ID is: " + oid);

@@ -1,7 +1,7 @@
-package oops.task1;
+package oops.variables.task1;
 
 public class user {
     String name;
     int age;
-    int id;    
+    int id;
 }

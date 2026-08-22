@@ -1,4 +1,4 @@
-package oops.task1;
+package oops.variables.task1;
 
 public class p1 {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class p1 {
         a1.name = "Lion";
         a1.age = 5;
         a1.color = "brown";
-        a1.weight=555;
+        a1.weight = 555;
 
         // p1.name = "Pen";
         // p1.id = 10;
@@ -20,7 +20,6 @@ public class p1 {
         // u1.age = 20;
         // u1.id = 111;
 
-       
         // System.out.println("============PRODUCT============");
         // System.out.println(p1.name);
         // System.out.println(p1.id);
@@ -32,9 +31,8 @@ public class p1 {
         // a1.setData("Lion", 5,"Brown");
         // a1.getData();
 
-
         a1.printTotalWeight();
-        
+
     }
 
 }
