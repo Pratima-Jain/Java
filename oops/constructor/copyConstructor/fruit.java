@@ -1,4 +1,4 @@
-package oops.constructor.copyConstructor;
+package copyConstructor;
 
 public class fruit {
     String name;

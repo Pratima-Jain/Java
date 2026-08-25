@@ -1,4 +1,4 @@
-package oops.constructor;
+// package constructor;
 
 public class fruit {
     String name;

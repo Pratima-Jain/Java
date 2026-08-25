@@ -1,4 +1,4 @@
-package oops.constructor.constructorChaining;
+package constructorChaining;
 
 public class fruitDriver {
     public static void main(String[] args) {

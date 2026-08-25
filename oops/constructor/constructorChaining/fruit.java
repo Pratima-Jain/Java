@@ -1,4 +1,4 @@
-package oops.constructor.constructorChaining;
+package constructorChaining;
 
 public class fruit {
     String name;
