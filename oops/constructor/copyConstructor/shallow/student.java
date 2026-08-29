@@ -22,8 +22,8 @@ public class student {
         this.a = x.a;
     }
 
-    public String toString() {
+    // public String toString() {
 
-        return "Name is: " + name + "\tRollNo is: " + rollno + "\tAddress Details[" + a + "]";
-    }
+    //     return "Name is: " + name + "\tRollNo is: " + rollno + "\tAddress Details[" + a + "]";
+    // }
 }

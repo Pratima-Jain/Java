@@ -4,6 +4,6 @@ public class p2 {
         System.out.println("This is static block1!!!!");
     }
     static {
-        System.out.println("This is static block1!!!!");
+        System.out.println("This is static block2!!!!");
     }
 }

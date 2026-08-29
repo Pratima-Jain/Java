@@ -15,8 +15,8 @@ public class address {
         this.pin = pin;
     }
 
-    public String toString() {
+    // public String toString() {
 
-        return "City is: " + city + "\tState is: " + state + "\tPIN is: " + pin;
-    }
+    //     return "City is: " + city + "\tState is: " + state + "\tPIN is: " + pin;
+    // }
 }
