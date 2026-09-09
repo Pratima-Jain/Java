@@ -1,0 +1,22 @@
+// tree map is a class which implements map interface  of collection framework
+// properties 
+// it stores all the elements in sorted manner based on its key.
+// tree map internally uses red black treeto store the entries.
+// we cannot store any null keys in tree map but values can be null.
+// it is not synchronized.
+// it is recommended to use if we want to work with sorted map.
+//? identity hash map
+it is a class which implements map interface of collection framework
+it is same as hash map but main difference is hash map uses "equals method" to compare 2keys while identityhashmap uses "==" operator to compare 2 keys 
+in this way identityhashmap works with identity of the object and helps in object tracking.
+
+
+loop through collection
+
+1) for loop=> it requires indexing so it can be used only with listt.
+2) forEach / Enhaced for loop =>  it can work with all type of collection but doen't allow any modifications or it'll throw ConcurrentModifictaionException.
+3) forEach() method loop => it can work with all type of collection but requires LambaExpression . it is a java8 feature.
+4) iterator  cursor => it is a universal cursor which can be used everywhere it is created with iterator() method and will traverse only in forward direction.
+4) listIterator  cursor => its is a cursor which is used only with list and is craeted with listIterator method it can traverse in forward or backward direction.
+
+
