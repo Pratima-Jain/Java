@@ -333,4 +333,93 @@ Inside pack2:
 
 ---
 
-## Private Access Modifier
+## DEFAULT ACCESS MODIFIER
+
+* If a member is not declared by any keyword then it is called a **default**.
+* A default member is accessible only inside the **same package**.
+* It cannot be accessed outside the package so it is also called **package private**.
+* A class, interface, constructor, variable or method can be default type members.
+
+---
+
+## PRIVATE ACCESS MODIFIER
+
+* If a member is declared using `private` keyword then it is allowed only inside the **same class**.
+* A private member cannot be accessed outside the class.
+* A variable, method or constructor can be private members.
+* A class or interface cannot be declared private.
+* Inner class can be private but private keyword is not allowed for outer class.
+
+---
+
+# ACCESS MODIFIERS
+
+| Access Modifier | Same Class | Different Class Same Package | Child Class Different Package | Different Class Different Package |
+| --------------- | ---------- | ---------------------------- | ----------------------------- | --------------------------------- |
+| **public**      | yes        | yes                          | yes                           | yes                               |
+| **protected**   | yes        | yes                          | yes                           | no                                |
+| **default**     | yes        | yes                          | no                            | no                                |
+| **private**     | yes        | no                           | no                            | no                                |
+
+```text
+public < protected < default < private
+  |                              |
+least                         most
+restricted                  restricted
+```
+
+---
+
+# PRIVATE CONSTRUCTOR
+
+Private constructor is used to make a **Singleton Class and Object**.
+
+### Q. Can we have private constructor?
+
+**Yes**, we can have a private constructor.
+
+It is used for a special design pattern called **Singleton Design Pattern**.
+
+---
+
+## SINGLETON CLASS
+
+* A class is called **Singleton Class** if only one object of the class is allowed to be created.
+* Singleton class is designed by using **private constructor**.
+
+### Singleton is designed in three ways:
+
+a. **Eager Initialization**
+
+b. **Lazy Initialization**
+
+c. **Synchronized Singleton / Initialization**
+
+---
+
+## EAGER INITIALIZATION
+
+* If the singleton object is created at the time of **class loading process itself** then it is called **Eager Initialization Singleton**.
+
+---
+
+## LAZY INITIALIZATION
+
+* If the object of singleton is created at the time of **method execution** then it is called **Lazy Initialization**.
+
+---
+
+## SYNCHRONIZED SINGLETON / INITIALIZATION
+
+* If the singleton object is allowed for only **one thread at a time** then it is called **Synchronized Singleton**.
+* It is used in **multi threading** to allow only one thread at a time on the resource.
+
+---
+
+### ADVANTAGE / USES OF SINGLETON
+
+1. Only one database connection per thread is provided through singleton.
+2. Only one configuration manager for application configuration is achieved through singleton.
+3. Cache should be only one per application.
+4. Loggers should be only one for an application.
+
