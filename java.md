@@ -423,3 +423,38 @@ c. **Synchronized Singleton / Initialization**
 3. Cache should be only one per application.
 4. Loggers should be only one for an application.
 
+___
+# METHOD CHAINING
+
+It is a process of chaining one method with another method. It is achieved by using `.` (dot) operator.
+
+```java
+m1().m2().m3().....;
+```
+
+## Important Points
+
+1. If the return type of the method is `void` then such method cannot be used in method chaining process.
+2. If the return type of the method is primitive type data then it cannot be used in method chaining process.
+3. A method can chain in method chaining process only if the return type of the method is not primitive type or object type.
+
+---
+
+# GENERICS
+
+* Parameterized type is called **Generics**.
+* Generics is recommended to use because it provides **type safety**.
+* It is added in Java in **Java 5 update** to work with collection of data in safety manner.
+
+## Advantage of Generics
+
+1. It provides **type safety**.
+2. It helps to avoid **Class Cast Exception**.
+3. Typecasting operation is not required in generics.
+
+# Note:
+
+* In generics, primitive type is not allowed.
+* Generics type must be **non-primitive**.
+* Generics can be a **class**.
+* Generics can be on **methods**.
